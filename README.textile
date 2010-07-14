@@ -1,0 +1,9 @@
+h1. GooTalk
+
+JQuery plugin to make your browser speak. (requires HTML5 video tags)
+
+<pre>
+  <code>
+    $.gootalk("Hello World!!")
+  </code>
+</pre>

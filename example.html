@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>jquery.engineer example</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="gootalk.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(function() {
+      $.gootalk('Type into the box')
+      
+      $('input').change(function() {
+        $.gootalk($(this).val());
+      })
+
+    })
+  </script>
+</head>
+  <body>
+    In about a second I will say something.
+    <input>
+  </body>
+</html>
+
